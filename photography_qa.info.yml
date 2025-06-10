@@ -1,0 +1,6 @@
+name: Photography QA
+type: module
+description: A Q&A chat bot with two types of engagement
+package: Custom
+version: 1.0
+core_version_requirement: ^10 || ^11

@@ -1,0 +1,26 @@
+<?php
+
+/**
+* Module handling all user related display and management of payments, invoices and ticketing
+*/
+
+/**
+ * Implements hook_theme() for custom profile layout.
+ */
+function photography_qa_theme($existing, $type, $theme, $path) {
+  return [
+     
+  ];
+}
+
+/* this code will look for a form twig as theme hook handles this
+   'photography_qa_form' => [
+        'render element' => 'form',
+      ],
+    'photography_qaex_form' => [
+        'render element' => 'form',
+    ],
+    'photography_qaextrend_form' => [
+        'render element' => 'form',
+    ], */  
+

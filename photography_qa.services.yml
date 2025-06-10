@@ -1,0 +1,3 @@
+services:
+  photography_qa.qa_service:
+    class: 'Drupal\photography_qa\Service\PhotographyQAService'

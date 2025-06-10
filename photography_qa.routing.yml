@@ -1,0 +1,24 @@
+photography_qa.chatbot-qa:
+  path: '/photo-qa'
+  defaults:
+    _form: 'Drupal\photography_qa\Form\PhotographyQAForm'
+    _title: 'Photography Q&A'
+  requirements:
+    _permission: 'access content'
+    _access: 'TRUE'
+photography_qa.chatbot-qa-ex:
+  path: '/photo-qa-ex'
+  defaults:
+    _form: 'Drupal\photography_qa\Form\PhotographyQAExerciseForm'
+    _title: 'Photography Q&A Exercise'
+  requirements:
+    _permission: 'access content'
+    _access: 'TRUE'
+photography_qa.chatbot-qa-trend:
+  path: '/photo-qa-trend'
+  defaults:
+    _form: 'Drupal\photography_qa\Form\PhotographyQAExTrendForm'
+    _title: 'Photography Q&A Trending'
+  requirements:
+    _permission: 'access content'
+    _access: 'TRUE'
